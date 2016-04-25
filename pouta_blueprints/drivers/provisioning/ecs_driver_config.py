@@ -14,6 +14,15 @@ CONFIG = {
             'description': {
                 'type': 'string'
             },
+            'docker_image': {
+                'type': 'string',
+            },
+            'internal_port': {
+                'type': 'integer'
+            },
+            'launch_command': {
+                'type': 'string',
+            },
             'memory_limit': {
                 'type': 'string',
                 'default': '512m',
