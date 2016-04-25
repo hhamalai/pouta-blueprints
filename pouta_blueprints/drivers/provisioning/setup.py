@@ -34,7 +34,7 @@ setup(
             'PvcCmdLineDriver = pouta_blueprints.drivers.provisioning.pvc_cmdline_driver:PvcCmdLineDriver',
             'OpenStackDriver = pouta_blueprints.drivers.provisioning.openstack_driver:OpenStackDriver',
             'DockerDriver = pouta_blueprints.drivers.provisioning.docker_driver:DockerDriver',
-            'ECSDriver = pouta_blueprints.drivers.provisioning.ecs_driver.ECSDriver',
+            'ECSDriver = pouta_blueprints.drivers.provisioning.ecs_driver:ECSDriver',
         ],
     },
 
